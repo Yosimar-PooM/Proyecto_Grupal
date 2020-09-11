@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         //File ff = new File(Environment.getExternalStorageDirectory()+File.separator+"Music_Folder", "Report Files");
         //File f =null;
         //this.path=ff.getAbsolutePath();
-        InputStream fraw= getResources().openRawResource(R.raw.records);
+        InputStream fraw= getResources().openRawResource(R.raw.pr_datos_pepsi);
         //this.path =(Environment.getExternalStorageDirectory()+ this.carpeta);
         txtfile.setText(fraw.toString());
         //txtfile.setText(this.path.toString());

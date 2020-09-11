@@ -1,16 +1,13 @@
 package com.example.proyecto_grupal;
 
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import java.io.IOException;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
 import Agenetico.Algoritmo;
@@ -38,7 +35,7 @@ public class Activity_Salida extends AppCompatActivity {
         //Obtener variables Seleccionadas
         //MainActivity mainActivity = new MainActivity();
         //TableLayout Jtable_Attr = (TableLayout) ((mainActivity)).findViewById(R.id.Jtable_Attr);
-        for (int i = 0; i < 14; i++) {
+        for (int i = 0; i < 3; i++) {
             //if (Boolean.valueOf(Jtable_Attr.get(i, 1).toString())) {
 
             variables.add(i);
