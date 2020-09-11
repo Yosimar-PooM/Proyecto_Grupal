@@ -21,6 +21,7 @@ public class Activity_Salida extends AppCompatActivity {
     public EditText Atx_Campo;
     public String poblacion,iteracion1,soporte1;
     public Boolean nosolucion;
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,10 +34,6 @@ public class Activity_Salida extends AppCompatActivity {
         soporte1= bundle.getString("txtsoporte");
         nosolucion= bundle.getBoolean("Chck_Solucion");
         //Atx_Campo.setEnabled(false);
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.N)
-    public void onClick(View view) throws IOException {
         variables = new ArrayList<>();
         //Obtener variables Seleccionadas
         //MainActivity mainActivity = new MainActivity();
