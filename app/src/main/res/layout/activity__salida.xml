@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Salida">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="191dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:text="Resultado"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="onClick"
+        android:text="Ejecutar"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Atx_Campo"
+        android:layout_width="match_parent"
+        android:layout_height="454dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>
